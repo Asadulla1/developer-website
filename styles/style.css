@@ -64,6 +64,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+  margin-bottom: 48px;
 }
 .banner-content-btn > a {
   text-decoration: none;
@@ -75,4 +76,103 @@
   background: rgb(13, 19, 33);
   margin-top: 32px;
   margin-bottom: 44px;
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Learning Section */
+.learning-importance-content {
+  padding: 80px 97px;
+}
+.learing-importance-heading-content {
+  text-align: center;
+  /* background: white; */
+  /* padding: ; */
+}
+.learning-importance-heading {
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+}
+.learning-importance-description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+}
+.learing-importance-section {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+/* Learning Questions */
+.learning-questions {
+  padding: 40px;
+}
+.learning-question-row1,
+.learning-question-row2,
+.learning-question-row3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 48px;
+  margin-bottom: 32px;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.row1-col1 h1,
+.row2-col2 h1,
+.row3-col1 h1 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono", monospace;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.row1-col1 p,
+.row2-col2 p,
+.row3-col1 p {
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 70%;
+  margin-bottom: 10px;
+}
+.row1-col1 button > a,
+.row2-col2 button > a,
+.row3-col1 button > a {
+  text-decoration: none;
+  color: black;
+}
+.row1-col1 button,
+.row2-col2 button,
+.row3-col1 button {
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+  margin-top: 10px;
+}
+.row1-col2 img,
+.row2-col1 img,
+.row3-col1 img {
+  width: 300px;
+  height: 280px;
+}
+.row2-col1-img {
+  margin-right: 200px;
+}
+.row2-col2 > p {
+  width: 100%;
 }
