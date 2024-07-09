@@ -176,3 +176,30 @@ main {
 .row2-col2 > p {
   width: 100%;
 }
+/* Inspiration section  */
+.inspiration-section {
+  width: 1140px;
+  height: 850px;
+  margin: 88px auto;
+  text-align: center;
+}
+.inspiration-section h1 {
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 24px;
+}
+.inspiration-section p {
+  color: rgb(13, 19, 33);
+  font-family: "Azeret Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 48px;
+}
+.youtube-iframe {
+  border-radius: 16px;
+  margin-bottom: 32px;
+}
